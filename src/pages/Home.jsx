@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import OSLogo from "../assets/OSlogo.svg";
+import OSLogo from "../assets/OSLogo.svg";
 import DMJLogo from "../assets/DMJLogo.svg";
 import SBDLogo from "../assets/SBDLogo.svg";
 import { Link } from "react-router-dom";
