@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import logo from "../assets/logo.svg";
+import logo from "../assets/Logo.svg";
 import { useState } from "react";
 
 function Navbar() {
@@ -19,7 +19,7 @@ const navLinks = [
 return (
     <nav className="bg-[#1E293B] backdrop-blur-lg shadow-lg sticky top-0 z-50 text-white">
         <div className="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
-            
+
             <Link to="/" className="flex items-center space-x-2 hover:opacity-80 transition">
             <img src={logo} alt="Logo" className="h-9 w-9" />
             <span className="text-2xl font-semibold tracking-wide">NetLab</span>
